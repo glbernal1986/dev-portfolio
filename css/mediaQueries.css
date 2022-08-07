@@ -1,0 +1,39 @@
+@media (max-width:1520px){
+        body { 
+            display: flex;
+            flex-direction: column;
+
+        }
+        .top-cantainer{
+            display: flex;
+            flex-direction: column;
+            position: relative;
+           
+        }
+
+        .name{
+            width: auto;
+            margin-top: 0;   
+        }
+
+        .left-crane {
+            display: none;
+        }
+    
+        .right-crane {
+            display: none;
+        }
+
+        .hook {
+            display: flex;
+            margin: auto;
+            width: 150px;
+            
+            
+            
+        }
+    }
+
+    @media (max-width:1402) {
+        
+    }

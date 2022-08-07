@@ -1,0 +1,130 @@
+body {
+  position: relative;
+  margin: 0;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.name {
+  color: #323643;
+  font-family: "Sacramento", cursive;
+  font-size: 5rem;
+
+  margin-top: 90px;
+  margin-bottom: 0px;
+
+  position: relative;
+}
+
+h2,
+h3 {
+  font-family: "Mouse Memoirs", sans-serif;
+  font-size: 2rem;
+}
+
+/* top scetion */
+.top-container {
+  background-color: #cde3eb;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-container p {
+  font-size: x-large;
+  margin-top: 2px;
+  margin-bottom: 100px;
+}
+
+.hook {
+  display: none;
+}
+
+.left-crane {
+  height: 220px;
+  position: absolute;
+  left: 25.4rem;
+  top: 8.7rem;
+}
+
+.right-crane {
+  height: 220px;
+  position: absolute;
+  top: 8.7rem;
+  right: 25.4rem;
+}
+
+.site {
+  width: 30vmax;
+}
+
+/* profile section */
+
+.middle-container {
+  width: 100%;
+  background-color:#f7f7f7;
+  padding-top: 3rem ;
+  position: absolute; 
+}
+
+.profile-pic {
+  height: 200px;
+  width: 150px;
+  border-radius: 15px;
+}
+
+.crane {
+  width: 40vw;
+  right: 20rem;  
+  position: relative;
+  
+}
+
+.h3-crane {
+  top: 31rem;
+  left: 63rem;
+  position: absolute
+  ;
+}
+
+.p-crane {
+  position: absolute;
+  top: 37rem;
+  left: 25rem;
+  width: 36rem;
+  text-align: left;
+}
+
+ .skill-row p {
+  margin: auto 25rem 22rem 25rem;
+  /* text-align: left; */
+  line-height: 2;
+ }
+
+.dev-img {
+  position: absolute;
+  width: 30vw;
+  top: 57rem;
+  left: 53rem;
+}
+
+.h3-dev {
+  position: absolute;
+  top: 55rem;
+  left: 23rem;
+}
+
+.p-dev {
+  width: 28rem;
+  position: relative ;
+  top: 10rem;
+  right: 11rem;
+  text-align: right;
+ 
+}
+
+
+
+.bottom-container {
+}
+
+
