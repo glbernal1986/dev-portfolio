@@ -1,0 +1,39 @@
+/* top scetion */
+.top-container {
+  width: 100vw;
+    background-color: #cde3eb;
+    position: relative;
+    padding-top: 100px;
+  }
+  
+  .top-container h1 {
+    margin-bottom: 2px;
+  }
+    
+  .top-container p {
+    font-size: x-large;
+    margin-top: 1px;
+    margin-bottom: 100px;
+  }
+  
+  #hook {
+    display: none;
+  }
+  
+  .left-crane {
+    height: 220px;
+    position: absolute;
+    left: 25.4rem;
+    top: 8.7rem;
+  }
+  
+  .right-crane {
+    height: 220px;
+    position: absolute;
+    top: 8.7rem;
+    right: 25.4rem;
+  }
+  
+  .site {
+    width: 30vmax;
+  }
