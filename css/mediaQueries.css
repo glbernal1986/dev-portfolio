@@ -1,10 +1,13 @@
 @media (max-width:1520px){
         body { 
-            display: flex;
+            position: relative;
             flex-direction: column;
+            justify-content: center;
+            align-items: center;
 
         }
         .top-cantainer{
+            width: 100vw;
             display: flex;
             flex-direction: column;
             position: relative;
@@ -24,7 +27,7 @@
             display: none;
         }
 
-        .hook {
+         #hook {
             display: flex;
             margin: auto;
             width: 150px;
@@ -34,6 +37,48 @@
         }
     }
 
-    @media (max-width:1402) {
-        
+    @media (max-width:920px) {
+       body {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+       }
+
+       .top-cantainer {
+        width: 100vw;
+       }
+
+       .skills {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       } 
+
+       .frontend-img {
+        margin: auto;
+        width: 15rem;
+       }
+
+       .crane-img {
+        width: 15rem;
+       }
+
+       .bottom-cantainer {
+        width: 100vw;
+       }
+    }
+
+    @media (max-width:450px) {
+
+        .skill-row {
+            margin: 2rem auto;
+        }
+
+        hr {
+            margin: 2rem auto;
+        }
     }
